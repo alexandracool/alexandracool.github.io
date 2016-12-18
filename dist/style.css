@@ -1,0 +1,75 @@
+h1 {
+  font-size: 36px;
+}
+.panel {
+  color: #fff;
+  text-shadow: -1px 1px 0 #fff;
+  padding: 10px;
+  cursor: pointer;
+  transition: all ease .2s;
+  margin-bottom: 10px;
+}
+.panel i {
+  display: inline-block;
+  font-size: 32px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.panel h4 {
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+  font-size: 24px;
+}
+section {
+  display: block;
+  margin-bottom: 30px;
+}
+section.actuals .panel {
+  background-color: #90b884;
+  color: #3b5733;
+}
+section.actuals .panel:hover {
+  background-color: #adcaa5;
+  color: #253720;
+}
+section.customer-performance .panel {
+  background-color: #f0ae7d;
+  color: #a75213;
+}
+section.customer-performance .panel:hover {
+  background-color: #f5caab;
+  color: #793b0e;
+}
+section.brand-performance .panel {
+  background-color: #c6c2ef;
+  color: #4235c9;
+}
+section.brand-performance .panel:hover {
+  background-color: #eceafa;
+  color: #352aa1;
+}
+section.mco-reports .panel {
+  background-color: #82dfca;
+  color: #248b74;
+}
+section.mco-reports .panel:hover {
+  background-color: #abe9db;
+  color: #196252;
+}
+section.gmva .panel {
+  background-color: #e8d28d;
+  color: #a28221;
+}
+section.gmva .panel:hover {
+  background-color: #f1e2b7;
+  color: #776018;
+}
+section.forecast .panel {
+  background-color: #8dd4ee;
+  color: #1b86ae;
+}
+section.forecast .panel:hover {
+  background-color: #bae4f4;
+  color: #146482;
+}
